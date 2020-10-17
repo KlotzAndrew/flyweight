@@ -1,4 +1,4 @@
-module flyweight
+module github.com/klotzandrew/flyweight
 
 go 1.14
 

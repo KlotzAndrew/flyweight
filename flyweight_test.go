@@ -1,9 +1,9 @@
 package flyweight_test
 
 import (
-	"flyweight"
 	"testing"
 
+	"github.com/klotzandrew/flyweight"
 	"github.com/stretchr/testify/assert"
 )
 
