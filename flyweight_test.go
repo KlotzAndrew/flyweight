@@ -88,3 +88,8 @@ func TestFlyweightRecursive(t *testing.T) {
 
 	assert.Equal(t, "", item.NonResetter.Name)
 }
+
+func TestEmptyStruct(t *testing.T) {
+	item := &RecursiveStruct{}
+	item.Reset()
+}
